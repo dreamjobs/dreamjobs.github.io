@@ -50,9 +50,12 @@ menu:
             text: Home page
             # You can use relative urls
             relativeUrl:
-        getting-started:
-            text: Getting Started
-            relativeUrl:
+        configuracion:
+            text: Configuracion de usuarios
+            relativeUrl: configuracion/admin-usuarios.html
+        configuracion-acceso:
+            text: Datos de la empresa
+            relativeUrl: configuracion/datos-empresa.html
         faq:
             text: FAQ
             relativeUrl:
