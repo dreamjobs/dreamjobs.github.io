@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>{{ title }}</title>
+        <title>eeeee {{ title }}</title>
 
         <link rel="stylesheet" href="{{ baseUrl }}/css/bootstrap.min.css">
         <link rel="stylesheet" href="{{ baseUrl }}/css/font-awesome.min.css">
@@ -16,9 +16,9 @@
         <header class="navbar navbar-default navbar-fixed-top">
 
             <a class="navbar-brand" href="{{ baseUrl }}/">
-                <img src="https://dreamjobs.com.co/DJ//pub/img/logo.png" width="150px" alt="" />
+                {{ title|default('The title') }}
                 <small class="hidden-xs hidden-sm">
-                    {{ title }}
+                    {{ subTitle|default('This is the default subtitle!') }}
                 </small>
             </a>
 
@@ -51,7 +51,7 @@
 
                 {% endif %}
 
-                <section id="content" class="{{ menu ? 'col-sm-8 col-lg-9' : 'col-sm-12' }}">
+                <section id="content" class="{{ menu ? 'col-sm-9 col-lg-10' : 'col-sm-12' }}">
                     {{ content|raw }}
                 </section>
 
