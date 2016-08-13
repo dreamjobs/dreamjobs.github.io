@@ -2,4 +2,4 @@
 
 Podrás activar y desactivar ofertas en cualquier momento, haciendo clic en el botón que representa la imagen.
 
-![Prueba](/images/desactivar-activar-oferta.JPG)
+![Prueba](/images/desactivar-activar-oferta.jpg)
