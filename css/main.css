@@ -121,3 +121,7 @@ pre {
 pre code {
     border: none;
 }
+
+.enlace a{
+    color: #009498 !important;
+}
