@@ -1167,7 +1167,7 @@ textarea {
 }
 
 a {
-    color: #00BABF;
+    color: #ffffff;
     text-decoration: none
 }
 
@@ -1266,7 +1266,9 @@ h6,
     font-family: inherit;
     font-weight: 400;
     line-height: 1.1;
-    color: #444444
+    color: #2B9999;
+    background-color: #f8f8f8;
+    padding: 20px 20px 20px 20px;
 }
 
 h1 small,
@@ -4966,12 +4968,12 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
 }
 
 .navbar-default {
-    background-color: #ffffff;
+    background-color: #f8f8f8;
     border-color: transparent
 }
 
 .navbar-default .navbar-brand {
-    color: #666666
+    color: #2B9999;
 }
 
 .navbar-default .navbar-brand:hover,
